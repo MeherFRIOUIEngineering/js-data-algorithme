@@ -1,0 +1,17 @@
+{
+  "name": "algorithmejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "reverse.js",
+  "scripts": {
+    "jest": "jest test.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3"
+  },
+  "devDependencies": {
+    "jest": "^23.6.0"
+  }
+}
