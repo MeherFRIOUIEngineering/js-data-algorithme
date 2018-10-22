@@ -6,6 +6,8 @@ const chunk = require('./chunk-with-slice');
 const chunked = require('./chunk-with-splice');
 const chunkWithForLoop = require('./chunk-for-loop');
 const Capital = require('./capilaze');
+const Capitalize = require('./Capitalize');
+
 
 
 test('Check if palandrom or not', () => {
@@ -46,4 +48,8 @@ test('Capital  sentence', () => {
   
 });
 
+test('Capital  sentence', () => {
+  console.log(Capitalize('frioui engineering of computer science'))
+  
+});
 
