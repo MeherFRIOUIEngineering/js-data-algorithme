@@ -5,6 +5,7 @@ const fizzBuzz = require('./fuzz-buzz');
 const chunk = require('./chunk-with-slice');
 const chunked = require('./chunk-with-splice');
 const chunkWithForLoop = require('./chunk-for-loop');
+const Capital = require('./capilaze');
 
 
 test('Check if palandrom or not', () => {
@@ -39,4 +40,10 @@ test('Chunked Array with  For Loop', () => {
   console.log(chunkWithForLoop([1,2,3,4,5,6,7,8,9],3))
   
 });
+
+test('Capital  sentence', () => {
+  console.log(Capital('frioui meher engineering of computer science'))
+  
+});
+
 
