@@ -12,3 +12,8 @@ if(n%3 ===0){
 }
 
 module.exports=fizzBuzz
+
+
+// fizzBuzz mean that a number u enter if is modulo 3 or 5 
+
+// modulo is the rest of the divide ecludiene
