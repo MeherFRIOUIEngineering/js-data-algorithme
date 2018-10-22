@@ -8,6 +8,7 @@ const chunkWithForLoop = require('./chunk-for-loop');
 const Capital = require('./capilaze');
 const Capitalize = require('./Capitalize');
 
+const Steps = require('./steps');
 
 
 test('Check if palandrom or not', () => {
@@ -53,3 +54,7 @@ test('Capital  sentence', () => {
   
 });
 
+test('Capital  sentence', () => {
+  console.log(Steps(3))
+  
+});
