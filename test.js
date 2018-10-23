@@ -9,6 +9,7 @@ const Capital = require('./capilaze');
 const Capitalize = require('./Capitalize');
 
 const Steps = require('./steps');
+const vowels = require('./vowels');
 
 
 test('Check if palandrom or not', () => {
@@ -58,3 +59,9 @@ test('Capital  sentence', () => {
   console.log(Steps(3))
   
 });
+
+test('vowels', () => {
+  console.log(vowels('hello there'))
+  
+});
+
