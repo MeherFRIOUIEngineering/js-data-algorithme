@@ -10,6 +10,7 @@ const Capitalize = require('./Capitalize');
 
 const Steps = require('./steps');
 const vowels = require('./vowels');
+const vowelsRegEx = require('./vowels-reg-exp');
 
 
 test('Check if palandrom or not', () => {
@@ -65,3 +66,7 @@ test('vowels', () => {
   
 });
 
+test('vowels Reg Ex', () => {
+  console.log(vowelsRegEx('hello there'))
+  
+});
